@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31cac8edf84834043ac167deaeba16a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planePrefab: {fileID: 1372998203143648, guid: 470a80f3e1767487eba2c33b2940a8f4,
+  planePrefab: {fileID: 1372998203143648, guid: 4dc959043eb304c06b9b6615aa8a7d41,
     type: 2}
 --- !u!4 &359599247
 Transform:
@@ -928,7 +928,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dce4cc61662a1494889b2de4c01bdfee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.83
+      value: 2.55
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dce4cc61662a1494889b2de4c01bdfee, type: 3}
       propertyPath: m_LocalPosition.z
