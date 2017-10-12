@@ -1,4 +1,8 @@
-# Home Portal
+# Goal Tracking with AR
+
+Let's bring your goals to life. This hack aims at leveraging augmented reality to make the process of setting up and tracking your financial goals engaging, exciting and fun.
+
+Watching numbers change is boring. Understanding charts can be complicated. We think it can be done better with augmented reality. Imagine you're saving for a new home. As your contributions grow, see your home grow in augmented reality!
 
 ### Required software
 
