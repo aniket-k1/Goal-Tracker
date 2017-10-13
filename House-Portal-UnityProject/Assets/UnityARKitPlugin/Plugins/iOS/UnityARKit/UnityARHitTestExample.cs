@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 namespace UnityEngine.XR.iOS
 {
@@ -27,7 +28,7 @@ namespace UnityEngine.XR.iOS
 			if (Input.touchCount > 0 && m_HitTransform != null)
 			{
 				var touch = Input.GetTouch(0);
-				if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved)
+				if (touch.phase == TouchPhase.Began && !EventSystem.current.IsPointerOverGameObject(0))
 				{
 					var screenPosition = Camera.main.ScreenToViewportPoint(touch.position);
 					ARPoint point = new ARPoint {
@@ -40,8 +41,8 @@ namespace UnityEngine.XR.iOS
                         ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent, 
                         // if you want to use infinite planes use this:
                         //ARHitTestResultType.ARHitTestResultTypeExistingPlane,
-                        //ARHitTestResultType.ARHitTestResultTypeHorizontalPlane, 
-                        //ARHitTestResultType.ARHitTestResultTypeFeaturePoint
+                        ARHitTestResultType.ARHitTestResultTypeHorizontalPlane, 
+                        ARHitTestResultType.ARHitTestResultTypeFeaturePoint
                     }; 
 					
                     foreach (ARHitTestResultType resultType in resultTypes)
