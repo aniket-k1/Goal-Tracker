@@ -4,6 +4,10 @@ Let's bring your goals to life. This hack aims at leveraging augmented reality t
 
 Watching numbers change is boring. Understanding charts can be complicated. We think it can be done better with augmented reality. Imagine you're saving for a new home. As your contributions grow, see your home grow in augmented reality!
 
+### Video
+
+[![Goal Tracker](screenshot.png)](https://www.youtube.com/watch?v=RprvQykFxEU&t= "Goal Tracker")
+
 ### Required software
 
 1. Xcode 9
